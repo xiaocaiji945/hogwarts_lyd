@@ -1,0 +1,92 @@
+{
+  "uid" : "a639f7e7e046a0c7",
+  "name" : "test_mul[负整数相乘]",
+  "fullName" : "test_caculator.TestCaculator#test_mul",
+  "historyId" : "51295f93d162b53ca25c7412605da45c",
+  "time" : {
+    "start" : 1597506200345,
+    "stop" : 1597506200345,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1597506200321,
+      "stop" : 1597506200321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1597506200377,
+      "stop" : 1597506200378,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_caculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaculator"
+  }, {
+    "name" : "host",
+    "value" : "liyongdadeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "37349-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_caculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "-4"
+  }, {
+    "name" : "b",
+    "value" : "-2"
+  }, {
+    "name" : "value",
+    "value" : "8"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a639f7e7e046a0c7.json",
+  "parameterValues" : [ "-4", "-2", "8" ]
+}

@@ -1,0 +1,92 @@
+{
+  "uid" : "6379624227cc80b1",
+  "name" : "test_mul[正整数相乘]",
+  "fullName" : "test_caculator.TestCaculator#test_mul",
+  "historyId" : "9f1e4d8d35409b95a2f8e787eea2163b",
+  "time" : {
+    "start" : 1597506200341,
+    "stop" : 1597506200341,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1597506200321,
+      "stop" : 1597506200321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1597506200377,
+      "stop" : 1597506200378,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_caculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaculator"
+  }, {
+    "name" : "host",
+    "value" : "liyongdadeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "37349-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_caculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "3"
+  }, {
+    "name" : "b",
+    "value" : "2"
+  }, {
+    "name" : "value",
+    "value" : "6"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6379624227cc80b1.json",
+  "parameterValues" : [ "3", "2", "6" ]
+}

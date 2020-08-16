@@ -1,0 +1,92 @@
+{
+  "uid" : "ed8feec4dde54ffb",
+  "name" : "test_sub[正整数相减]",
+  "fullName" : "test_caculator.TestCaculator#test_sub",
+  "historyId" : "05b7be06ae854ca4da5fbf3f27971045",
+  "time" : {
+    "start" : 1597506200331,
+    "stop" : 1597506200331,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1597506200321,
+      "stop" : 1597506200321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1597506200377,
+      "stop" : 1597506200378,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_caculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaculator"
+  }, {
+    "name" : "host",
+    "value" : "liyongdadeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "37349-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_caculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "3"
+  }, {
+    "name" : "b",
+    "value" : "2"
+  }, {
+    "name" : "value",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed8feec4dde54ffb.json",
+  "parameterValues" : [ "3", "2", "1" ]
+}

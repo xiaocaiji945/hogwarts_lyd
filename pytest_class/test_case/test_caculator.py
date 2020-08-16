@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import allure
 import pytest
 import yaml
 
@@ -29,15 +30,19 @@ class GetDatas:
         divname = self.mydatas['div']['myids']
         return [divdatas, divname]
 
+@allure.feature('这是测试计算器的class')
 class TestCaculator:
 
     def setup_class(self):
         self.calc = Calculator()
 
+    @allure.story('这是测试计算器的story')
     @pytest.mark.parametrize('a, b, value', GetDatas().add_datas()[0], ids=GetDatas().add_datas()[1])
     def test_add(self, a, b, value):
-        result = round(self.calc.add(a, b), 2)
-        assert value == result
+        with allure.step('这是测试计算器加法的step'):
+            result = round(self.calc.add(a, b), 2)
+        with allure.step('这是校验加法结果的step'):
+            assert value == result
 
     @pytest.mark.parametrize('a, b, value', GetDatas().sub_datas()[0], ids=GetDatas().sub_datas()[1])
     def test_sub(self, a, b, value):

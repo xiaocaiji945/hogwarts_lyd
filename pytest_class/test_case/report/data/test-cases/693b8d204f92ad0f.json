@@ -1,0 +1,92 @@
+{
+  "uid" : "693b8d204f92ad0f",
+  "name" : "test_sub[小数相减]",
+  "fullName" : "test_caculator.TestCaculator#test_sub",
+  "historyId" : "59bd548bd45e74293ac81ba2b808283b",
+  "time" : {
+    "start" : 1597506200338,
+    "stop" : 1597506200338,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1597506200321,
+      "stop" : 1597506200321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1597506200377,
+      "stop" : 1597506200378,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_caculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaculator"
+  }, {
+    "name" : "host",
+    "value" : "liyongdadeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "37349-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_caculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "10"
+  }, {
+    "name" : "b",
+    "value" : "1.2"
+  }, {
+    "name" : "value",
+    "value" : "8.8"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "693b8d204f92ad0f.json",
+  "parameterValues" : [ "10", "1.2", "8.8" ]
+}
