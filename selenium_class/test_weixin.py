@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
 
-class TestWexin():
+class TestWexin(object):
     def setup(self):
         # 复用浏览器
         option = Options()
