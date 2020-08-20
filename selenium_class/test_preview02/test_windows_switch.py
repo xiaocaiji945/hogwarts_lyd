@@ -1,5 +1,10 @@
+import sys
 from time import sleep
+import sys
 
+sys.path.append('..')
+sys.path.append('..')
+# from selenium_class.test_preview02.driver_import import DrIm
 from selenium_class.test_preview02.driver_import import DrIm
 
 '''
