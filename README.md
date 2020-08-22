@@ -1,2 +1,3 @@
 ## selenium作业1
-hogwarts_lyd/selenium_class/test_weixin.py 
+hogwarts_lyd/page
+hogwarts_lyd/testcase
