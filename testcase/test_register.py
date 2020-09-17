@@ -1,4 +1,4 @@
-from page.main_page import MainPage
+from page.not_login_main_page import MainPage
 
 
 class TestRegister:
